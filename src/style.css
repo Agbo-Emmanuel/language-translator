@@ -1,0 +1,25 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 2px solid blue;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.item{
+    width: 200px;
+    background-color: aqua;
+    font-size: 0.5rem;
+    flex-grow: 1;
+    padding: 10px;
+}
+
